@@ -24,7 +24,7 @@ namespace TrilhaApiDesafio.Controllers
             return Ok(tarefa);
         }
 
-        [HttpGet("ObterTodos")]
+        [HttpGet("ObterTodos")] 
         public IActionResult ObterTodos(Tarefa tarefa)
         {
             var tarefas = _context.Tarefas;

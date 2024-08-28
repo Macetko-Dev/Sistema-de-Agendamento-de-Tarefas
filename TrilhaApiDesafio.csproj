@@ -1,11 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -13,6 +12,11 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <Content Include="Migrations\OrganizadorContextModelSnapshot.cs" />
+    <Content Include="Migrations\20230103161746_CriaçãoTabelaAgendaTarefas.cs" />
+    <Content Include="Migrations\20230103161746_CriaçãoTabelaAgendaTarefas.Designer.cs" />
+    <Content Include="Controllers\TarefaController.cs" />
+    <Content Include=".config\dotnet-tools.json" />
+    <Content Include="Properties\launchSettings.json" />
   </ItemGroup>
-
 </Project>
